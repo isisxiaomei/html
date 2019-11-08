@@ -80,6 +80,7 @@
 + `http://localhost:63342/testjs/要提交的后端地址.html?username=sss&passwd=sss`
 ```html
 <!-- 示例1： -->
+<!-- submit提交时参数名设置在name属性中设置 -->
 <form action="要提交的后端地址.html" method="get" name="form1">
     <label>用户名：<input type="text" name="username"></label>
     <label>密  码：<input type="password" name="passwd"></label>
@@ -87,7 +88,10 @@
     <input type="reset" value="重置">
 </form>
 
-// 一般如果没有action则不需要submit，直接用button就行；submit表示往action的路径上提交；
+<!-- 一般如果没有action则不需要submit，直接用button就行；submit表示往action的路径上提交；
+如果只是采用button提交时，提交的参数名由id 设置
+-->
+
 <form>
     <label>用户名：<input type="text" name="username" id="username"></label>
     <label>密  码：<input type="password" name="passwd" id="passwd"></label>
