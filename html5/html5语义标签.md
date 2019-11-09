@@ -1,12 +1,12 @@
 # 1. 文档结构新语义
 ## 1.1 文档结构语义标签
 > 以下结果语义都是块元素
-+ <header>语义：定义网页头部</header>
-+ <nav>语义：定义网页导航栏</nav>
-+ <footer>语义：定义网页底部</footer>
-+ <article>语义：定义内容</article>
-+ <section>语义：定义区段</section>
-+ <aside>语义：定义侧边</aside>
++ `<header>`：定义网页头部`</header>`
++ `<nav>`：定义网页导航栏`</nav>`
++ `<footer>`：定义网页底部`</footer>`
++ `<article>`：定义内容`</article>`
++ `<section>`：定义区段`</section>`
++ `<aside>`：定义侧边`</aside>`
 ```html
 <!-- 示例1：如图 -->
 <img title="HTML5 语义元素" src="https://7n.w3cschool.cn/statics/images/course/img_sem_elements.gif" alt="" height="207" width="174">
