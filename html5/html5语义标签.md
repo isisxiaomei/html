@@ -35,9 +35,9 @@
 ```
 
 # 2. 语义标签描述
-+ <figure>：规定独立内容
-+ <figcaption>：描述内容；figcaption不是块元素
-+ <figcaption>元素应该被置于 "figure" 元素的第一个或最后一个子元素的位置。
++ `<figure>`：规定独立内容
++ `<figcaption>`：描述内容；figcaption不是块元素
++ `<figcaption>`元素应该被置于 "figure" 元素的第一个或最后一个子元素的位置。
 ```html
 <!-- 示例1：figcaption描述img图片的内容 -->
 <figure>

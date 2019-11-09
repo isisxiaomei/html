@@ -32,6 +32,7 @@
 - loop：默认只播放一边，设置2循环两次，不设置一直循环下去
 
 ```html
+<!-- 示例1： -->
 <video src="视频连接" autoplay="autoplay" controls loop></video>
 ```
 ## 3.2 兼容问题
