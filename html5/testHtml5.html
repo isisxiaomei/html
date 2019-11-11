@@ -5,15 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
-    <!--[if lte IE 8]>
-      <script src="html5shiv.js"></script>
-    <![endif]-->
   </head>
+
   <body>
-    <form action="" method="get" id="ff">
-      <input type="text" name="usename" >
-      <input type="submit" value="提交">
-    </form>
-    <input type="text" name="passwd" form="ff">
+    <div class="one" data-test-name="hello"></div>
+    <script>
+          //   获取一次定位
+          // window.navigator.geolocation.getCurrentPosition(successCallBack, errorCallBack);
+          // function successCallBack(position){
+          // 	//  position位置对象
+          // 	console.log(position);
+          // 	// 维度
+          // 	console.log(position.coords.latitude);
+          // 	// 经度
+          // 	console.log(position.coords.longitude);
+
+          // }
+          // function errorCallBack(error){
+          // 	// 错误信息对象
+          // 	console.log(error);
+          // }
+        //   window.navigator.geolocation.watchPosition(
+        //     position => {
+        //       console.log(position);
+        //       //   console.log(position.coords.latitude);
+        //       //   console.log(position.coords.longitude);
+        //     },
+        //     error => {
+        //       console.log(error);
+        //     }
+        //   );
+          var list ='[{"1": "11","2": "22"},{"1": "11","2": "22"}]';
+          window.localStorage.setItem("age", 20);
+       window.localStorage.setItem("list", list);
+        //   window.localStorage.getItem("age");
+        //   window.localStorage.removeItem("age");
+        window.localStorage.clear();
+    </script>
   </body>
 </html>
