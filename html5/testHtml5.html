@@ -5,42 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
+    <style></style>
   </head>
 
   <body>
-    <div class="one" data-test-name="hello"></div>
-    <script>
-          //   获取一次定位
-          // window.navigator.geolocation.getCurrentPosition(successCallBack, errorCallBack);
-          // function successCallBack(position){
-          // 	//  position位置对象
-          // 	console.log(position);
-          // 	// 维度
-          // 	console.log(position.coords.latitude);
-          // 	// 经度
-          // 	console.log(position.coords.longitude);
+    <canvas width="300" height="300"></canvas>
 
-          // }
-          // function errorCallBack(error){
-          // 	// 错误信息对象
-          // 	console.log(error);
-          // }
-        //   window.navigator.geolocation.watchPosition(
-        //     position => {
-        //       console.log(position);
-        //       //   console.log(position.coords.latitude);
-        //       //   console.log(position.coords.longitude);
-        //     },
-        //     error => {
-        //       console.log(error);
-        //     }
-        //   );
-          var list ='[{"1": "11","2": "22"},{"1": "11","2": "22"}]';
-          window.localStorage.setItem("age", 20);
-       window.localStorage.setItem("list", list);
-        //   window.localStorage.getItem("age");
-        //   window.localStorage.removeItem("age");
-        window.localStorage.clear();
+    <script>
+      // 获取画布对象
+      var canvas = document.querySelector("canvas");
+      // 获取画图上下文
+      var ctx = canvas.getContext("2d");
+
+      var img = document.createElement("img");
+      img.src = "xxx.jpg"
+
+      // 必须图片加载完成才可以绘制
+      img.onload = function (){
+        ctx.drawImage(img, 0, 0);
+      }
+
     </script>
   </body>
 </html>
