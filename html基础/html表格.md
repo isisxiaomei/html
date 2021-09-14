@@ -138,7 +138,19 @@
 </table>
 ```
 # 4. 单元格拆分
-https://zhidao.baidu.com/question/183699981.html
+
+```html
+    <table width="105" height="45" border="1">
+        <tr>
+            <td  rowspan="2">1</td>
+            <td>2</td>
+            <td >3</td>
+        </tr>
+        <tr>
+            <td colspan="2">4</td>
+        </tr>
+    </table>
+```
 
 
 # 5. 为表格的列提供共同样式
